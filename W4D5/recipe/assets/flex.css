@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  margin: 0 auto;
+  width: 60%;
 }
 
 h1 {
@@ -116,10 +118,6 @@ label {
 }
 
 @media all and (max-width: 900px) {
-  [class*='col-'] {
-    width: 100%;
-  }
-
   nav ul {
     display: none;
   }
@@ -129,7 +127,7 @@ label {
   }
 
   .hamburger-dropdown > li {
-      background: url(/hamburger.png);
+      background: url(assets/hamburger.png);
       background-repeat: no-repeat;
       background-size: 50px 50px;
       width: 50px;
