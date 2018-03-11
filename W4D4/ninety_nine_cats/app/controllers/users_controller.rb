@@ -7,7 +7,7 @@ class UsersController < ApplicationController
       login_user!(@user)
 
       msg = UserMailer.welcome_email(@user)
-      msg.deliver
+      msg.deliver_now
 
       redirect_to @url
     else
