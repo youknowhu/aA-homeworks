@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   const handlePhotoSubmit = (e) => {
-  e.preventDefault();
+   e.preventDefault();
 
    const photoUrlInput = document.querySelector(".photo-url-input");
    const photoUrl = photoUrlInput.value;
